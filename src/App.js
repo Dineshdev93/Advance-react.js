@@ -1,8 +1,5 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import User from "./Components.js/User";
-import UserDetails from "./UserDetails";
 function App() {
  
   return (
