@@ -31,7 +31,7 @@ export default function Getapicall() {
         fetch('https://api.example.com'); Code language: JavaScript
         (javascript)09-Sept-2022
       </h6>
-      <table border={1} style={{ marginLeft: "590px" }}>
+      <table border={1} style={{ marginLeft: "590px",backgroundColor:'darkgreen' }}>
         <tbody>
           <tr>
             <td>S.N.</td>
