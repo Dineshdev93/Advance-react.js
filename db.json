@@ -4,6 +4,11 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "title": "Triber",
+      "Author": "dinesh",
+      "id": 2
     }
   ],
   "comments": [
@@ -11,23 +16,24 @@
       "id": 1,
       "body": "some comment",
       "postId": 1
-    },
-    [
-      "Dinesh Sharma",
-      "mantry.dinesh@gmail.com",
-      "8290868058"
-    ],
-    [
-      "hemu",
-      "1213",
-      "13"
-    ]
+    }
   ],
-  "User": [
+  "Customer": [
     {
-      "name": "saroj",
-      "email": "jsx@123",
-      "phone": "989383"
+      "id": 1,
+      "name": "ram",
+      "email": "ram@112"
+    },
+    {
+      "name": "djdk",
+      "email": "djdk@123",
+      "id": 2
+    },
+    {
+      "name": "Dinesh Sharma",
+      "email": "mantry.dinesh@gmail.com",
+      "phone": "8290868058",
+      "id": 3
     }
   ],
   "profile": {
