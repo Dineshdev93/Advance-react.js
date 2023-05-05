@@ -5,9 +5,9 @@ export default function Postapi() {
     const[email,setEmail]=useState('')
     const[phone,setPhone]=useState("")
     const svaeUser=()=>{
-        console.log(name,email,phone)
-        const data=[name,email,phone]
-        fetch("http://localhost:3000/comments" ,{
+        // console.log(name,email,phone)
+        const data={name,email,phone}
+        fetch("http://localhost:3000/Customer" ,{
             method : 'Post',
             headers : {
                 "Accept":"application/json",
