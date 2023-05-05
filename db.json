@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    [
+      "Dinesh Sharma",
+      "mantry.dinesh@gmail.com",
+      "8290868058"
+    ],
+    [
+      "hemu",
+      "1213",
+      "13"
+    ]
+  ],
+  "User": [
+    {
+      "name": "saroj",
+      "email": "jsx@123",
+      "phone": "989383"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

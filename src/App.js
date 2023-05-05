@@ -1,11 +1,13 @@
 import "./App.css";
 import React from "react";
-import Getapicall from "./Components.js/Getapicall"
+// import Getapicall from "./Components.js/Getapicall"
+import Postapi from "./Components.js/Postapi";
 function App() {
  
   return (
     <div className="App">
-      <Getapicall/>
+      {/* <Getapicall/> */}
+      <Postapi/>
     </div>
   );
 }
