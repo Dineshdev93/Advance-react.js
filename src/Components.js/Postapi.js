@@ -17,7 +17,7 @@ export default function Postapi() {
         }).then((result)=>{
             // console.log("result",result)
             result.json().then((resp)=>{
-                console.log(resp)
+                // console.log(resp) check in console for seeing objects
             })
         })
     }

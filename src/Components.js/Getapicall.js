@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 export default function Getapicall() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(" https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8").then(
+    fetch("http://localhost:3000/Customer").then(
       (result) => {
         result.json().then((res) => {
           // console.warn("resulr",res)
@@ -31,19 +31,21 @@ export default function Getapicall() {
         fetch('https://api.example.com'); Code language: JavaScript
         (javascript)09-Sept-2022
       </h6>
-      <table border={1} style={{ marginLeft: "590px",backgroundColor:'darkgreen' }}>
+      <table border={1} style={{ marginLeft: "450px",backgroundColor:'darkgrey' }}>
         <tbody>
           <tr>
-            <td>S.N.</td>
+            <td>Id</td>
             <td>Name</td>
-            <td>city</td>
+            <td>Email</td>
+            <td>Phone</td>
           </tr>
 
           {data.map((it, i) => (
             <tr key={i}>
-              <td>{i + 1}</td>
+              <td>{it.id}</td>
               <td>{it.name}</td>
-              <td>{it.city}</td>
+              <td>{it.email}</td>
+              <td>{it.phone}</td>
             </tr>
           ))}
         </tbody>
