@@ -20,30 +20,6 @@
   ],
   "Customer": [
     {
-      "name": "Dinesh",
-      "email": "dinesh@gmail.com",
-      "pass": "djdk@123",
-      "dob": "2023-05-06",
-      "phone": "8290868058",
-      "id": 1
-    },
-    {
-      "name": "Heamnt sharma",
-      "email": "linux@yahoo.com",
-      "pass": "hk@#$123",
-      "dob": "2023-05-27",
-      "phone": "8312234567",
-      "id": 2
-    },
-    {
-      "name": "Rajat Sharma",
-      "email": "rajat@bing.com",
-      "pass": "rajo@543",
-      "dob": "2023-05-20",
-      "phone": "9571223456",
-      "id": 3
-    },
-    {
       "name": "John Doe",
       "email": "john@thunder.com",
       "pass": "rajesh@123",
@@ -58,6 +34,14 @@
       "dob": "2023-05-06",
       "phone": "9082345876",
       "id": 5
+    },
+    {
+      "name": "Darshil Sharma",
+      "email": "mantry.dinesh@gmail.com",
+      "pass": "dar@123",
+      "dob": "2023-05-05",
+      "phone": "9571223456",
+      "id": 6
     }
   ],
   "profile": {
