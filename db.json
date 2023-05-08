@@ -20,28 +20,36 @@
   ],
   "Customer": [
     {
-      "name": "John Doe",
-      "email": "john@thunder.com",
-      "pass": "rajesh@123",
-      "dob": "2023-06-08",
-      "phone": "8312234567",
-      "id": 4
-    },
-    {
-      "name": "Rohit",
-      "email": "rj18@gmail.com",
-      "pass": "rholk@123",
-      "dob": "2023-05-06",
-      "phone": "9082345876",
-      "id": 5
-    },
-    {
-      "name": "Darshil Sharma",
+      "name": "Darshil ",
       "email": "mantry.dinesh@gmail.com",
-      "pass": "dar@123",
-      "dob": "2023-05-05",
-      "phone": "9571223456",
-      "id": 6
+      "phone": "8290868058",
+      "dob": "2023-05-06",
+      "userid": 1,
+      "id": 1
+    },
+    {
+      "name": "Dinesh Sharma",
+      "email": "mantry.dinesh@gmail.com",
+      "pass": "djdk@123",
+      "dob": "2023-05-06",
+      "phone": "8290868058",
+      "id": 2
+    },
+    {
+      "name": "rakesh",
+      "email": "rakseh@gmail.com",
+      "phone": "8312234567",
+      "dob": "2023-05-10",
+      "userid": 3,
+      "id": 3
+    },
+    {
+      "name": "Manohar lal shrama ",
+      "email": "mano@123",
+      "phone": "9799408110",
+      "dob": "2023-05-04",
+      "userid": 4,
+      "id": 4
     }
   ],
   "profile": {

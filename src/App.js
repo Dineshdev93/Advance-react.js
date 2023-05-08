@@ -7,7 +7,7 @@ import Getapi2 from "./Components.js/Getapi2";    //(Managed)
 function App() {
  
   return (
-    <div >
+    <div className="App">
        {/* <Postapi/> */}
       {/* <Getapicall/> */}
       <Postapi2/><br/>
